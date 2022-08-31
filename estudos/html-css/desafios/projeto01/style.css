@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+body{
+        background-image: url('imagens/fundo.png');   
+        color: rgb(83, 83, 83);
+        
+    }
+
+.categorias{
+    background-color:rgb(180, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+}
+
+.categorias a{
+   margin-left: 10px;
+   margin-right: 10px;
+}
